@@ -1,5 +1,5 @@
 ## Price = [10,15,8,6,12,2,4]
-
+            1  2  1 1 3  1 2
 ## Table:
 
 ## While Condition -- D != {} and done = false
