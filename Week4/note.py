@@ -26,8 +26,9 @@ def partition(a,p,r):
             i = i + 1
             a[i],a[j] = a[j],a[i]
     a[i + 1],a[r] = a[r],a[i + 1]
+    
     return i + 1
-
+    
 # quicksort(a,p,r) algorithm
 
 def quicksort(a,p,r):
@@ -35,13 +36,15 @@ def quicksort(a,p,r):
         q = partition(a,p,r)
         quicksort(a,p,q - 1)
         quicksort(a,q + 1,r)
+        print(p,r)
     return a
 
 
             
     
 def main():
-    input = [4,5,1,3,2,7,6,9,8]
+    input = [9,4,5,0,7,2,8,6]
+
     print(quicksort(input,0,len(input) - 1))
     
 if __name__ == "__main__":
