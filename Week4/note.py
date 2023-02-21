@@ -17,35 +17,31 @@ def sort(input):
     return input
 '''
 # partition(a,p,r) algorithm 
+def partition(ls):
+    pivot = ls[0]
+    i = 1
+    for j in range(1, len(ls)):
+        if ls[j] < pivot:
+            ls[j], ls[i] = ls[i], ls[j]
+            i += 1
+    ls[0], ls[i-1] = ls[i-1], ls[0]
+    return i-1
 
-def partition(a,p,r):
-    x = a[r]
-    i = p - 1
-    for j in range(p,r):
-        if a[j] <= x:
-            i = i + 1
-            a[i],a[j] = a[j],a[i]
-    a[i + 1],a[r] = a[r],a[i + 1]
-    
-    return i + 1
-    
-# quicksort(a,p,r) algorithm
-
-def quicksort(a,p,r):
-    if p < r:
-        q = partition(a,p,r)
-        quicksort(a,p,q - 1)
-        quicksort(a,q + 1,r)
-        print(p,r)
-    return a
-
-
+def quicksort(ls):
+    if len(ls) <= 1:
+        return ls
+    else:
+        pivot = partition(ls)
+        left = quicksort(ls[:pivot])
+        right = quicksort(ls[pivot+1:])
+        ls = left + [ls[pivot]] + right
+    return ls
             
     
 def main():
     input = [9,4,5,0,7,2,8,6]
 
-    print(quicksort(input,0,len(input) - 1))
+    print(quicksort(ls))
     
 if __name__ == "__main__":
     main()
