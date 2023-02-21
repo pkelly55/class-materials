@@ -11,10 +11,3 @@
 5) Analyzing Merge Sort Algorithm.
 
 # Week6 activity form:
-
-
-
-
-
-
-
