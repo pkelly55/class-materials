@@ -26,7 +26,7 @@ It is very important to go over and practice all the exercise problems discussed
 6) Review how the sorting problem is solved using the Merge sort algorithm. Review both the merge sort main and merge procedure and review the analysis of Mergesort.
 It is very important to go over and practice all the exercise problems discussed in class. 
 
-7) Review the Tree basic terminologies, tree traversals, and the properties of trees,  and Tree based algorithms such as Heap Sort. This topic will be only covered in the Exam based on how much we get to cover this week by end of Thursday's class period. 
+7) Review the Tree basic terminologies, tree traversals, and the properties of trees. Traversals preorder, inorder and postorder. This topic will be only covered in the Exam based on how much we get to cover this week by end of Thursday's class period. 
 Expect (10 to 15)% of questions from this new topic covered during this week classes!
 
 Note: Please read the textbook, based on the reading assignment given at the end of every lecture slide. Make sure you review the questions provided in the previous quizzes. You may expect questions in the exam to be similar to the quizzes. 
@@ -34,4 +34,4 @@ Note: Please read the textbook, based on the reading assignment given at the end
 Unlike the previous quizzes, Midterm is expected to cover more content, more questions, and more time will be provided. 
 Typically, the questions are expected to be combination of multiple choice and narrative questions. You can expect between 10 to 20 questions and you will have the full lab time to complete the Exam. You will not receive your grade for the exam immediately after completing the google form. The results will be notified typically after a week. You are allowed to use a one-page (can be 2-sided) resource sheet during the Exam to add helpful notes and allowed to use a calculator during the Exam. 
 
-(Test)[]
+(Test)[https://forms.gle/E4obERuT8PNDX9ks9]
