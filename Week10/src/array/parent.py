@@ -17,7 +17,9 @@ def extractparent(ls, node):
                 print(ls[parent])
             else:
                 print("no parent")
-
+# math.ceil(i/2) - 1 parent
+# 2i + 1 Left child
+# 2i + 2 Right child
     
 def main():
     ls = [25,15,50,10,22,35,70,4,12,18,24,31,44,66,90]

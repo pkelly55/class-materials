@@ -10,8 +10,17 @@ def validate(ls, node):
 
 # extract the parent based on the given child value.
 def extractgrandparent(ls, node):
-    pass
-
+    for i in range(len(ls)):
+        if (ls[i] == node):
+            parent = math.ceil(i/2) - 1
+            if (parent >= 0 and parent < len(ls)):
+                grandparent = math.ceil(parent/2) - 1
+                if (grandparent >= 0 and grandparent < len(ls)):
+                    print(ls[grandparent])
+                else:
+                    print("no grand parent")
+            else:
+                print("no grand parent")
     
 def main():
     ls = [25,15,50,10,22,35,70,4,12,18,24,31,44,66,90]

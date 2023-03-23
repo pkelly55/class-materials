@@ -1,20 +1,20 @@
 def inorder(ls, index):
 	if (index >= len(ls)):
-		return;
+		return
 	inorder(ls, (2*index)+1)
 	print(ls[index], " ", end = '')
 	inorder(ls, (2*index)+2)
 
 def postorder(ls, index):
 	if (index >= len(ls)):
-		return;
+		return
 	postorder(ls, (2*index)+1)
 	postorder(ls, (2*index)+2)
 	print(ls[index], " ", end = '')
 
 def preorder(ls, index):
 	if (index >= len(ls)):
-		return;
+		return
 	print(ls[index], " ", end = '')
 	preorder(ls, (2*index)+1)
 	preorder(ls, (2*index)+2)

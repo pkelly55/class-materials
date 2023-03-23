@@ -4,7 +4,7 @@ def compute():
 		tanks = i
 		turtles = tanks+1
 		# complete line 6 below by adding the right conditions inside the if block ...
-		if ():
+		if (turtles/tanks == 1/2 and turtles%tanks == 1):
 			print(turtles, tanks)
 if __name__ == "__main__":
     compute()

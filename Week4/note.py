@@ -16,6 +16,15 @@ def sort(input):
    
     return input
 '''
+# Quick Sort algorithm
+
+        
+
+
+
+
+
+
 # partition(a,p,r) algorithm 
 def partition(ls):
     pivot = ls[0]
@@ -39,8 +48,7 @@ def quicksort(ls):
             
     
 def main():
-    input = [9,4,5,0,7,2,8,6]
-
+    ls = [9,4,5,0,7,2,8,6]
     print(quicksort(ls))
     
 if __name__ == "__main__":
