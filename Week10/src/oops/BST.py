@@ -55,4 +55,13 @@ class BST:
         return values
 
     def search(self, value):
-        pass
+        if self.value == value:
+            return True
+        if self.left is not None and value < self.value:
+            return self.left.search(value)
+        if self.right is not None and value > self.value:
+            return self.right.search(value)
+        return False
+    
+  
+    
