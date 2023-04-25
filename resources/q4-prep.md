@@ -17,7 +17,7 @@ how do we create the BFS table?, how does the BFS algorithm work? What supportin
 
 3) Review Shortest Path Algorithms, what are the different shortest path algorithms? and how do they differ from one another? What is the main purpose of the Dijkstras algorithm? how is the Dijkstras table generated? how does the algorithm work? what is the time complexity of the algorithm?
 
-4) What are the limitations of 2-3 trees? Review the basic rules of Red-Black Trees and the algorithmic steps. How do the rotate, insert, and delete happen in Red Black Trees? Review all the examples and tryouts. 
+4) What are the limitations of 2-3 trees? Review the basic rules of Red-Black Trees and the algorithmic steps. How do the rotate and insert happen in Red Black Trees? Review all the examples and tryouts. DELETE is not covered in Quiz-4. 
 
 Note: Please read the textbook, based on the reading assignment given at the end of every lecture slide. 
 
