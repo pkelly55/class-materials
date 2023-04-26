@@ -26,8 +26,8 @@ It is very important to go over and practice all the exercise problems discussed
 6) Review how the sorting problem is solved using the Merge sort algorithm. Review both the merge sort main and merge procedure and review the analysis of Mergesort.
 It is very important to go over and practice all the exercise problems discussed in class. 
 
-7) Review the Tree basic terminologies, tree traversals, and the properties of trees. Traversals preorder, inorder and postorder. This topic will be only covered in the Exam based on how much we get to cover this week by end of Thursday's class period. 
-Expect (10 to 15)% of questions from this new topic covered during this week classes!
+7) Review the Tree basic terminologies, tree traversals, and the properties of trees. Traversals preorder, inorder and postorder. 
+
 
 8) Review Tree Data structure operations such as the traversal implementation both (iterative and recursive), tree implementation using object oriented programming, extracting parent, grand parent, child, grand child, ancestors, descendents, and lowest common ancestors. Review remote class activities from Week 9 and Lab-6. Try out problems similar to the solution for problems covered in class activities. 
 
@@ -46,7 +46,9 @@ how do we create the BFS table?, how does the BFS algorithm work? What supportin
 
 17) What are the limitations of 2-3 trees? Review the basic rules of Red-Black Trees and the algorithmic steps. How do the rotate, insert, and delete happen in Red Black Trees? Review all the examples and tryouts. 
 
-Note: Please read the textbook, based on the reading assignment given at the end of every lecture slide. Make sure you review the questions provided in the previous quizzes. You may expect questions in the exam to be similar to the quizzes. 
+Expect (30 to 35%) of questions from recent topics such as 2-3 Trees, Graphs, and Red Black Trees. 
+
+Note: Please read the textbook, based on the reading assignment given at the end of every lecture slide. Make sure you review the questions provided in the previous quizzes and Midterm. You may expect questions in the exam to be similar to the quizzes and Midterm. 
 
 Unlike the previous quizzes and midterm, FINALS is expected to cover more content (cumulative coverage from the start of the semester), more questions, and more time will be provided. 
 Typically, the questions are expected to be combination of multiple choice and narrative questions. You can expect between 15 to 25 questions and you will have 3 hours to complete the Exam. You will not receive your grade for the exam immediately after completing the google form. The results will be updated in the grade book directly during the grade due date. You are allowed to use a one-page (can be 2-sided) resource sheet during the Exam to add helpful notes and allowed to use a calculator during the Exam. 
