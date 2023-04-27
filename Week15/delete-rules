@@ -1,0 +1,81 @@
+Delete:
+--------
+If double black root then color black
+
+If sibling of double black is black and children of sibling are both black:
+	color double black to black
+	color parent to black  (if parent is black already, then double black parent)
+	color sibling to red
+	delete	
+
+If sibling of double black is red:
+	swap colors of parent & sibling 
+	rotate parent towards the direction of double black
+	reapply
+
+If sibling of double black is black and closest child of sibling from double black is red and farthest is black:
+	swap colors of sibling and closest child 
+	rotate sibling away from double black
+	reapply
+
+If sibling of double black is black and farthest child of sibling from double black is red:
+	swap colors of parent and sibling of double black
+	change farthest child to black
+	rotate parent towards double black
+	color double black as black 
+	delete	
+
+Delete 14:
+-----------------------
+		  8
+	4*        12*
+  2   6    10    14
+1  3 5 7  9 11 13 15		
+
+
+-----------------------
+		  8
+	4*        12
+  2   6    10*    15
+1  3 5 7  9 11  13* x		
+
+-----------------------
+Delete 10:
+		  8
+	4        12
+  2   6    10    14*
+               13  15		
+-----------------------
+		  8
+	4         12
+  2   6    10#    14*
+                 13  15		
+
+-----------------------
+		  8
+	4         12*
+  2   6    10#    14
+                 13  15		
+
+-----------------------
+		  8
+	4         14
+  2   6    12    15
+          x  13*     
+
+-----------------------
+Delete 15:
+		  8
+	4         14
+  2   6    12    15
+             
+
+-----------------------
+		  8
+	4*         14
+  2   6    12*    15
+-----------------------
+             
+		  8
+	4*         14
+  2   6    12*    x
